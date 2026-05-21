@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aru Shugal — Portfolio</title>
+  <title>Arush Ugal — Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
 </head>
 <body>
   <nav class="nav">
-    <a href="#" class="nav-logo">aru.</a>
+    <a href="#" class="nav-logo">arush.</a>
     <div class="nav-links">
       <a href="#work">work</a>
       <a href="#about">about</a>
@@ -23,8 +23,8 @@
     <section class="hero">
       <div class="hero-content">
         <p class="hero-greeting">hey, i'm</p>
-        <h1 class="hero-name">Aru Shugal</h1>
-        <p class="hero-tagline">I design & build things for the web.<br>Currently crafting digital experiences that feel good to use.</p>
+        <h1 class="hero-name">Arush Ugal</h1>
+        <p class="hero-tagline">CS student at Arizona State University.<br>I build things for the web and dig into systems & security.</p>
         <a href="#work" class="hero-cta">see my work ↓</a>
       </div>
     </section>
@@ -33,35 +33,45 @@
       <h2 class="section-title">selected work</h2>
       <div class="projects">
         <article class="project-card">
-          <div class="project-image" style="background-color: #e8e4df;"></div>
+          <div class="project-image" style="background-color: #e8e4df;">
+            <span class="project-icon">📊</span>
+          </div>
           <div class="project-info">
-            <h3>Project One</h3>
-            <p>A clean web app for managing daily tasks. Built with care for the small details.</p>
+            <h3>Oil Price Time Series Dashboard</h3>
+            <p>Processed and validated 10 years of Brent crude price data with integrity checks. Annotated major global events to analyze risk, volatility, and system-level trends.</p>
             <div class="project-tags">
-              <span>Design</span>
-              <span>Development</span>
+              <span>Python</span>
+              <span>matplotlib</span>
+              <span>Data Pipelines</span>
             </div>
           </div>
         </article>
         <article class="project-card">
-          <div class="project-image" style="background-color: #dfe4e8;"></div>
+          <div class="project-image" style="background-color: #dfe4e8;">
+            <span class="project-icon">🤖</span>
+          </div>
           <div class="project-info">
-            <h3>Project Two</h3>
-            <p>Brand identity and website for a local coffee shop. Warm, inviting, simple.</p>
+            <h3>HireMeNow — AI Recruitment Platform</h3>
+            <p>Designed backend services with Flask and Firestore. Built candidate ranking pipelines using pandas/NumPy and integrated Twilio for controlled communication workflows.</p>
             <div class="project-tags">
-              <span>Branding</span>
-              <span>Web</span>
+              <span>Python</span>
+              <span>Flask</span>
+              <span>Firestore</span>
+              <span>Twilio</span>
             </div>
           </div>
         </article>
         <article class="project-card">
-          <div class="project-image" style="background-color: #e4e8df;"></div>
+          <div class="project-image" style="background-color: #e4e8df;">
+            <span class="project-icon">🚗</span>
+          </div>
           <div class="project-info">
-            <h3>Project Three</h3>
-            <p>An open-source tool that helps developers write better documentation.</p>
+            <h3>Autonomous Vehicle Project</h3>
+            <p>Integrated sensor inputs and navigation logic in MATLAB. Compared 8 maze-solving strategies, analyzing failure modes and performance tradeoffs.</p>
             <div class="project-tags">
-              <span>Open Source</span>
-              <span>Dev Tools</span>
+              <span>MATLAB</span>
+              <span>Embedded</span>
+              <span>Navigation</span>
             </div>
           </div>
         </article>
@@ -72,18 +82,26 @@
       <h2 class="section-title">about me</h2>
       <div class="about-content">
         <div class="about-text">
-          <p>I'm a developer and designer who cares about making the web a little more thoughtful. I like clean interfaces, good typography, and products that respect people's time.</p>
-          <p>When I'm not at my desk, you'll find me reading, sketching, or trying a new coffee spot. I believe the best work comes from curiosity and a bit of stubbornness.</p>
-          <p>I'm always open to interesting projects and conversations.</p>
+          <p>I'm a Computer Science student at Arizona State University (Ira A. Fulton Schools of Engineering) with a 4.0 GPA. I care about building software that's reliable, secure, and thoughtfully designed.</p>
+          <p>I'm interested in cybersecurity, systems security, and secure software design. I like understanding how things break so I can build them better. Currently exploring AI/ML alongside my security interests.</p>
+          <p>Outside of code, I've led workshops on programming and electronics, been part of ASU's Grand Challenges Scholar Program, and spent time in the Robotics Club building mechanical systems and control logic.</p>
         </div>
         <div class="about-details">
           <div class="detail-group">
-            <h4>tools i use</h4>
-            <p>HTML, CSS, JavaScript, React, Figma, Node.js, Python</p>
+            <h4>languages</h4>
+            <p>Python, SQL, Java, HTML/CSS/JS</p>
+          </div>
+          <div class="detail-group">
+            <h4>tools</h4>
+            <p>Git, VS Code, Linux, Flask, Firestore, Tableau, Excel</p>
+          </div>
+          <div class="detail-group">
+            <h4>coursework</h4>
+            <p>Data Structures, Algorithms, Computer Architecture, Systems Programming, Database Management, Intro to ML</p>
           </div>
           <div class="detail-group">
             <h4>currently</h4>
-            <p>Open to freelance & collaboration</p>
+            <p>B.S. Computer Science @ ASU · Class of 2028</p>
           </div>
         </div>
       </div>
@@ -92,12 +110,11 @@
     <section id="contact" class="section">
       <h2 class="section-title">let's talk</h2>
       <div class="contact-content">
-        <p class="contact-text">Got a project in mind, or just want to say hi? I'd love to hear from you.</p>
-        <a href="mailto:hello@arushugal.com" class="contact-email">hello@arushugal.com</a>
+        <p class="contact-text">Got a project in mind, want to collaborate, or just want to say hi? I'd love to hear from you.</p>
+        <a href="mailto:arushugal@gmail.com" class="contact-email">arushugal@gmail.com</a>
         <div class="contact-links">
-          <a href="https://github.com" target="_blank" rel="noopener">github</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener">linkedin</a>
-          <a href="https://twitter.com" target="_blank" rel="noopener">twitter</a>
+          <a href="https://github.com/ARUSHUGAL" target="_blank" rel="noopener">github</a>
+          <a href="https://linkedin.com/in/arush-ugal-b1a8a625a" target="_blank" rel="noopener">linkedin</a>
         </div>
       </div>
     </section>

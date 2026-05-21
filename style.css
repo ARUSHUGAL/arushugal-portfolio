@@ -160,6 +160,14 @@ a {
   aspect-ratio: 4/3;
   border-radius: 8px;
   transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon {
+  font-size: 3rem;
+  opacity: 0.7;
 }
 
 .project-card:hover .project-image {
